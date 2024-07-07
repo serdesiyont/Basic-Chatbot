@@ -1,0 +1,29 @@
+{
+    "intents": [
+        {
+            "tags": "greetings",
+            "patterns": ["yo", "bro", "whats up", "you good", "hello"],
+            "responses": ["Yo", "You Good", "How are you", "amazing"]
+        },
+        {
+            "tags": "farewells",
+            "patterns": ["bye", "see you", "goodbye", "catch you later"],
+            "responses": ["Bye", "See you later!", "Goodbye", "Catch you later"]
+        },
+        {
+            "tags": "thanks",
+            "patterns": ["thanks", "thank you", "appreciate it", "cheers"],
+            "responses": ["You're welcome", "No problem", "Anytime", "Cheers"]
+        },
+        {
+            "tags": "questions",
+            "patterns": ["how are you", "what's going on", "what's up"],
+            "responses": ["I'm good, thanks", "Not much, you?", "Just here, you?"]
+        },
+        {
+            "tags": "commands",
+            "patterns": ["open the door", "turn on the light", "play music"],
+            "responses": ["Opening the door", "Turning on the light", "Playing                                 music"]
+        }
+    ]
+}
