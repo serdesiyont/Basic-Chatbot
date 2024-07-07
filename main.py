@@ -13,7 +13,7 @@ nltk.download('punkt')
 nltk.download('wordnet')
 intents = json.loads(open('intents.json').read())
 
-# Initialize lemmatizer
+
 lemmatizer = WordNetLemmatizer()
 
 words = pickle.load(open('words.pkl', 'rb'))
